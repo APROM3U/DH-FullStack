@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.nav-link {
+    color: #777;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url("../img/banner.png");
+    height: 235px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 82px;
+}
+
+.img-left {
+    background-image: url("../img/photoshoot-1.png");
+    width: 400px;
+    height: 600px;
+    right: 113px;
+    margin-left: 50px;
+}
+
+.img-right {
+    background-image: url("../img/photoshoot-2.png");
+    width: 600px;
+    height: 757.64px;
+    left: 567px;
+    margin-right: 80px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contato {
+    display: flex;
+}
+
+form, article {
+    flex: 1;
+    margin: 1rem;
+    color: #9b9b9b;
+}
+
+article {
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    color: #9b9b9b;
+    font-size: 2.5rem;
+}
+
+.contact-heading {
+    margin: 1rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #9b9b9b;
+}
+
+input, select {
+    margin-bottom: 0.9375rem;
+    padding: 0.3125rem 0.625rem;
+    border: solid 0.0625rem #9b9b9b;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 0.3125rem;
+}
+
+button {
+    cursor: pointer;
+}
+
+#btnUpload {
+    width: 7.375rem;
+    height: 1.3125rem;
+    background-color: #C4C4C4;
+    color: white;
+    border: 0;
+    box-sizing: border-box;
+}
+
+#btnEnviar {
+    
+    background-color: #C2185B;
+    color: white;
+    border: 0;
+    width: 100%;
+    height: 2.0625rem;
+}
+
+button:hover {
+    font-size: x-large;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+textarea {
+    height: 5rem;
+    resize: none;
+}
+
+option{
+    padding: 0.3125rem 0.625rem;
+    color: #9b9b9b;
+}
+
+.frete {
+    background-color: #C2185B;
+    color: white;
+    position: sticky;
+    text-align: center;
+    text-transform: uppercase;
+    top: 0;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}

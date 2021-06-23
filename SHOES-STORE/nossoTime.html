@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Store</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+    <header class="container">
+        <a href="index.html"><img src="./img/logo-color.png" alt="Logo"></a>
+        <nav>
+            <a href="#" class="nav-link">
+                Todos os produtos
+            </a>
+            <a href="#" class="nav-link">
+                Coleções
+            </a>
+            <a href="#" class="nav-link">
+                Outlet
+            </a>
+            <a href="nossoTime.html" class="nav-link">
+                Nosso Time
+            </a>
+        </nav>
+    </header>
+    <main class="container">
+        <section class="frete">
+            <p>Mês de Setembro - Frete grátis para todo o Brasil!</p>
+        </section>
+        <section class="banner"></section>
+        <section>
+            <h2 class="contact-heading">Faça parte do nosso time</h2>
+            <div class="contato">
+                <form action="">
+                    <label for="txtNome">Nome</label>
+                    <input type="text" name="nome" id="txtNome" required>
+                    <label for="txtEmail">E-mail</label>
+                    <input type="text" name="email" id="txtEmail" required>
+                    <label for="txtTelefone">Telefone</label>
+                    <input type="text" name="telefone" id="txtTelefone" required>
+                    <label for="departamentos">Departamento</label>
+                    <select type="text" name="departamentos" id="departamentos">
+                        <option value=0 selected></option>
+                        <option value=1>Tecnologia</option>
+                        <option value=2>Design</option>
+                        <option value=3>Recursos Humanos</option>
+                    </select>
+                    <label for="disponibilidade">Disponibilidade</label>
+                    <div>
+                        <input type="checkbox" name="disponibilidade" id="opcao_integral">
+                        <label for="opcao_integral">Integral (8h)</label>
+                        <input type="checkbox" name="disponibilidade" id="opcao_meio">
+                        <label for="opcao_meio">Meio período (4h)</label>
+                        <input type="checkbox" name="disponibilidade" id="opcao_freelancer">
+                        <label for="opcao_freelancer">Freelancer</label>
+                    </div>
+                    <label for="contato">Qual a melhor forma para entrarmos em contato com você?</label>
+                    <div>
+                        <input type="radio" name="contato" value="email_ctt" id="email_ctt" checked>
+                        <label for="email_ctt">E-mail</label>
+                        <input type="radio" name="contato" value="ligacao_ctt" id="ligacao_ctt">
+                        <label for="ligacao_ctt">Ligação</label>
+                        <input type="radio" name="contato" value="whatsapp_ctt" id="whatsapp">
+                        <label for="whatsapp">WhatsApp</label>
+                    </div>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" maxlength="250"></textarea>
+                    <div>
+                        <label for="curriculo">Curriculo</label>
+                        <button id="btnUpload">Upload</button>
+                    </div>
+                    <div>
+                        <button id="btnEnviar">Enviar</button>
+                    </div>
+                </form>
+
+                <article>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum.</p>
+                    <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum.</p>
+
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+</body>
+
+</html>
