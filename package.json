@@ -1,0 +1,27 @@
+{
+  "name": "dh-fullstack",
+  "version": "1.0.0",
+  "description": "*Diversas atividades",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "nodemon": "^2.0.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/APROM3U/DH-FullStack.git"
+  },
+  "keywords": [],
+  "author": "Alexandre",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/APROM3U/DH-FullStack/issues"
+  },
+  "homepage": "https://github.com/APROM3U/DH-FullStack#readme"
+}
