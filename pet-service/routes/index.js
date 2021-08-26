@@ -6,10 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express' });
 });
 
-router.get('/service', (req, res) => {
-  const {taxaDesc} = req.query;
-  const listaServDesc = serviceController(taxa);
-
-})
-
 module.exports = router;

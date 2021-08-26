@@ -1,0 +1,7 @@
+Alexandre P Romeu
+
+mkdir cria nomePasta
+ls lista seus conteudos = dir
+touch e ou  echo > cria nomeArquivo
+rm ou del nomeArquivo remove arquivo
+rename noAntigo.extensão novoNome.extensão renomear arquivos - mv Linux/mac (CS)
